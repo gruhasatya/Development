@@ -1,0 +1,141 @@
+body {
+  /* text alogn centre will centre if id doent not have width*/
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  color: #40514E;
+}
+.intro
+{
+width: 30%;
+margin:auto;
+}
+p{
+  line-height: 2;
+}
+hr{
+border: dotted #EAF6F6 6px;
+border-bottom: none;
+width: 4%;
+margin:100px auto;
+}
+a{
+  color:#04009a;
+  text-decoration: none;
+  padding: 50px 25px;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.last{
+  color: #04009A;
+}
+h1 {
+  /* if width is compulsory to give you can aslo use this method called margin:---horizonatl middle or vertical middle*/
+  /*width: 20%;
+margin: 0 auto 0 auto;*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5rem;
+  color: #04009a;
+  line-height: 2;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #04009a;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat'sans-serif;
+  color: #04009a;
+}
+
+.hi {
+  background-color: #51c4d3;
+  position: relative;
+  padding-top: 100px;
+}
+
+.hello {
+   margin: 100px 0;
+}
+
+.bye {
+  background-color:#51c4d3;
+  padding: 50px 0 25px ;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+.upper-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.web {
+  font-size: 1.5rem;
+}
+
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+    text-align: left;
+/*  position: relative;
+  left: 340px;*/
+}
+.im{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.ui{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* using of float is very much not useful  use when wrapping problem only with imagesd as you see in the code not elsewhere  but use it when your text is wrapping the image not for positioning
+use positioning skill you learnt but not float.
+how to clear
+ give a class to pargraph which you want to useful AND
+ now in .css
+------  {
+ clear:left ==-=====it will clwear check it on code...
+ }*/
+ .btn  {
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    color: #04009A;
+    font-family: Times New Roman;
+    font-size: 35px;
+    font-weight: 100;
+    padding: 22px;
+    background-color: #3D94F6;
+    -webkit-box-shadow: 1px 1px 20px 0 #FFFFFF;
+    -moz-box-shadow: 1px 1px 20px 0 #FFFFFF;
+    box-shadow: 1px 1px 20px 0 #FFFFFF;
+    text-shadow: 1px 1px 20px #FFFFFF;
+    border: solid #FFFFFF 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+
+ .btn :hover {
+    background: #1E62D0;
+    border: solid #FFFFFF 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
